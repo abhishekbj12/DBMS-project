@@ -1,0 +1,211 @@
+.sidenav {
+	height: 100%;
+	width: 10em;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #ccc;
+	overflow-x: hidden;
+	padding-top: 1.5em;
+}
+
+.sidenav__btn {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: white;
+	display: block;
+	background-color: #6ba0b6;
+	margin: 5px auto;
+	border: solid 1px #6ba0b6;
+}
+
+.sidenav__btn--active {
+	background-color: #e4ecff;
+	border: inset 1px #000;
+	color: black;
+}
+
+.logout__btn {
+	background-color: #a58383;
+}
+
+.main {
+	margin-left: 10em;
+}
+
+.main > * {
+	display: none;
+}
+
+.main .main--active {
+	display: block;
+}
+
+.vehicleEntryForm {
+	width:  14em;
+	margin: 0 auto;
+}
+
+.vehicleEntryForm input {
+	text-align: center;
+	padding: 0.5em;
+}
+
+.vehicleEntryForm * {
+	width: 14em;
+	text-align: center;
+	margin: 0.5em auto;
+}
+
+.vehicleEntryForm .vehicleButton {
+	float: left !important;
+	padding: 0.75em;
+	/* margin: 0 0 !important; */
+	margin: 0 0.25em;
+	width: 6.5em;
+	background-color: #6ba0b6;
+	color: white;
+	border: 2px solid white;
+	cursor: pointer;
+}
+
+.vehicleEntryForm #exit {
+	padding-top: 1.375em;
+	padding-bottom: 1.375em;
+} 
+
+#vehicleExit {
+	display: none;
+}
+
+.layout {
+	padding-top: 4em;
+	padding-left: 3em; 
+}
+
+.right {
+	float: left;
+}
+
+.layout div {
+	margin: 0.2em;
+	width: 10%;
+	padding: 40px;
+	background: green;
+}
+
+.manage {
+	width: 51em;
+	margin: 0 auto;
+}
+
+.manage input {
+	text-align: center;
+	padding: 0.5em;
+	margin: 0.5em auto;
+}
+
+.manage * {
+	width: 14em;
+	text-align: center;
+	margin: 1em auto;
+}
+
+.manage #delEmployee {
+	display: none;
+}
+
+.manage #manageDiv {
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.manage .manageEmployee {
+	float: left !important;
+	padding: 0.75em;
+	margin: 4em;
+	width: 9em;
+	background-color: #6ba0b6;
+	color: white;
+	border: 2px solid white;
+	cursor: pointer;
+}
+
+.manage .manageEmployee:active {
+	background-color: slateblue;
+}
+
+.manage .manageEmployee:focus {
+	background-color: slateblue;
+}
+
+.manageColor {
+	border: 2px solid slateblue;
+}
+
+.manage #delButton {
+	padding-top: 1.4em;
+	padding-bottom: 1.4em;
+}
+
+#getEmployee {
+	display: none;
+}
+
+#getToken {
+	display: none;
+}
+
+#employeeTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: -5em;
+}
+
+#employeeTable td, #employeeTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#employeeTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#employeeTable tr:hover {background-color: #ddd;}
+
+#employeeTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#tokenTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: -5em;
+}
+
+#tokenTable td, #tokenTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tokenTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#tokenTable tr:hover {background-color: #ddd;}
+
+#tokenTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+

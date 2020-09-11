@@ -1,0 +1,29 @@
+.welcome__header {
+	padding: 1em;
+	text-align: center;
+	background-color: aliceblue;
+}
+
+.access {
+	padding: 1em;
+	text-align: center;
+	margin: auto 0;
+}
+
+.access--hidden {
+	display: none;
+}
+
+.accessForm {
+	text-align: center;
+}
+
+.accessForm--hidden {
+	display: none;
+}
+
+.accessForm * {
+	text-align: center;
+	padding: 0.5em;
+	margin: 0.5em auto;
+}
