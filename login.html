@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Parking management system</title>
+
+	<link rel="stylesheet" href="/css/login.css">
+	<link rel="stylesheet" href="/css/common.css">
+</head>
+
+<body>
+	<h1 class="welcome__header"> Welcome to parking management system </h1>
+	<section class="access">
+		<button class="access__login">Log In</button>
+	</section>
+	<section class="accessForm accessForm--hidden">
+		<form action="/api/login" method="POST" id="loginForm">
+			<input type="text" placeholder="User Name" name="username"> <br>
+			<input type="password" placeholder="Password" name="password"> <br>
+		</form>
+		<button type="submit" form="loginForm">Submit</button>
+		<button class="accessForm__cancel">Cancel</button>
+	</section>
+	<script src="/js/login.js"></script>
+</body>
+
+</html>
