@@ -1,2 +1,3 @@
-# DBMS-project
-DBMS project done using HTML CSS JAVASCRIPT Mysql nodejs
+# Parking Managemnet System
+
+DBMS project for Semester 5; B. Tech
